@@ -5,7 +5,7 @@
     <style>
         body {
           margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
+          font-family: 'Montserrat';
         }
         
         .top {
@@ -31,6 +31,42 @@
           background-color: #868686;
           color: black;
         }
+
+        .middle {
+            width: 100vw-20px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #868686;
+        }
+    
+        .image {
+            width: 200px;
+            float: left;
+            margin-right: 1%;
+        }
+
+        .info {
+            height: 200px;
+        }
+
+        .projects {
+            width: 50vw-20px;
+            height: 75px;
+            display: flex;
+            flex-direction: row;
+          }
+
+        .projects div {
+            width: 150px;
+            padding: 5px;
+            text-align: center;
+            align-content: center;
+            border: 1px solid #c3c3c3;
+        }
+
+        footer {
+            padding: 10px;
+        }
         </style>
 </head>
 <body>
@@ -45,14 +81,18 @@
     </div>
     <div class="middle">
         <div class="about">
-            <img src="tootles.png" alt="Tootles" style="width: 200px;height: 200px;">
-            <h1>Ryan Andrew D. Adormeo</h1>
-            <p>my info</p>
+            <div class="image">
+                <img src="tootles.png" alt="Tootles" style="width: 200px;height: 200px;">
+            </div>
+            <div class="info">
+                <h1>Ryan Andrew D. Adormeo</h1>
+                <p>BS Computer Science student of University of the Philippines Los Baños. Creative and team-based worker. Adaptable person that can be a leader and a follower.</p>
+            </div>
         </div>
+        <h1>My Projects</h1>
         <div class="projects">
-            <h1>My Projects</h1>
-            <div>Project 1</div>
-            <div>Project 2</div>
+            <div>CMSC 22<br>Top-down Shooter</div>
+            <div>CMSC 23<br>Slambook App</div>
             <div>Project 3</div>
             <div>Project 4</div>
             <div>Project 5</div>
@@ -60,9 +100,11 @@
         </div>
         <div class="skills">
             <h1>My Skills</h1>
+            <p>Publicity Material Editing<br>Video Editing<br>Python (7/10)<br>C (7/10)<br>Web Development (7/10)<br>Mobile Development (7/10)<br>Good Communication<br>Leadership<br>Active Listening<br>Creativity<br>Teamwork<br>Adaptability</p>
         </div>
         <div class="me">
             <h1>My Life</h1>
+            <p>Born on August 12, 2001 in Lucena City, Quezon. Started education in Saint Philomena School for Kinder and Preperatory. Transferred to Sacred Heart College and spent Grade 1 until Grade 12 in the institution. Passed UPCAT 2020 and now currently a BS Computer Science student in University of the Philippines Los Baños.</p>
         </div>
     </div>
     <footer>
